@@ -1,0 +1,11 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 8px; /* Tambahkan padding sesuai kebutuhan */
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}

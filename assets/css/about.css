@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 8px; /* Tambahkan padding sesuai kebutuhan */
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Mengizinkan pemotongan di antara anggota tim jika layar terlalu kecil */
+}
+
+.person {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
+
+.person img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* membuat gambar menjadi bulat */
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 10px;
+}
+
+.thank-you {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.thanks-person {
+  margin-top: 20px;
+}
+
+.thanks-person img {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
